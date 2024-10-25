@@ -1,0 +1,73 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/glitcher/git/xye_to_modbus_converter/include",
+                "/home/glitcher/git/xye_to_modbus_converter/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                "/home/glitcher/git/xye_to_modbus_converter/.pio/libdeps/ATmega328P/MAX_RS485/src",
+                "/home/glitcher/git/xye_to_modbus_converter/.pio/libdeps/ATmega328P/ModbusRTUSlave/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/glitcher/git/xye_to_modbus_converter/include",
+                    "/home/glitcher/git/xye_to_modbus_converter/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                    "/home/glitcher/git/xye_to_modbus_converter/.pio/libdeps/ATmega328P/MAX_RS485/src",
+                    "/home/glitcher/git/xye_to_modbus_converter/.pio/libdeps/ATmega328P/ModbusRTUSlave/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                    "/home/glitcher/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60116",
+                "ARDUINO_AVR_ATmega328P",
+                "RS485_HARDWARE_UART=Serial",
+                "RS485_RE_DE_PIN=2",
+                "XYE_SOFTWARE_UART_TX_PIN=5",
+                "XYE_SOFTWARE_UART_RX_PIN=3",
+                "XYE_SOFTWARE_RE_DE_PIN=4",
+                "DEFAULT_SETTINGS_PIN=6",
+                "ARDUINO_LED_PIN = 13",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/home/glitcher/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
